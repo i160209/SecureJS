@@ -14,7 +14,11 @@ def about():
 
 @app.route("/contact")
 def contact():
-    return render_template('SECUREJS/contact.html')	
+    return render_template('SECUREJS/contact.html')
+
+@app.route("/documentation")
+def doc():
+    return render_template('SECUREJS/KarmaShop/documentation.html')	
 	
 if __name__ == '__main__':
 #     app.run(ssl_context='adhoc')

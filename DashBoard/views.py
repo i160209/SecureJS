@@ -15,11 +15,11 @@ from gensim.models import Word2Vec,KeyedVectors
 import nltk
 
 from gensim.test.utils import datapath
-wv_from_bin = KeyedVectors.load_word2vec_format("C:/Users/Meow/Desktop/model.bin", binary=True)
+wv_from_bin = KeyedVectors.load_word2vec_format("model.bin", binary=True)
 
 
 import pickle
-filename = 'C:/Users/Meow/Desktop/FYP2/DashBoard/securejsModel.sav'
+filename = './DashBoard/securejsModel.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 def predict(X):
