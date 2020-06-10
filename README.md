@@ -15,9 +15,9 @@ Instructions to Run the project:
 4. Import "SecureJS_DB.sql" to postgres database
 5. Open cmd and navigate to root Directory of Project
 6. Run the following commands.
-	-> pipenv shell
-	-> pip install -r requirements.txt
-	-> python manage.py runserver
+      -> pipenv shell
+      -> pip install -r requirements.txt
+      -> python manage.py runserver
 7. Go to browser and access the server from localhost:8000 or the respective port
 
 Instructions to run the Front end:
