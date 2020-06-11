@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+admin.site.site_header = 'SecureJS Admin Panel'
+admin.site.index_title = 'SecureJS Admininstration'
 
 urlpatterns = [
     path('admin/', admin.site.urls),

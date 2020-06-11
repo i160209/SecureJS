@@ -186,21 +186,21 @@
                 <thead>
                 <tr>
                   <th>ScanID</th>
-                  <th>Code</th>
-                  <th>TimeStamp</th>
+                  <th>Code Type</th>
                   <th>Severity</th>
-                  <th>Vulnerable(Y/N)</th>
+                  <th>Vulnerable(Yes/No)</th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>JS
-                  </td>
-                  <td>2:16 pm</td>
-                  <td> Medium</td>
-                  <td>Y</td>
-                </tr>
+                
+				{% for s in object %}
+                    <tr>
+                    <td>{{forloop.counter}}</td>
+                    <td>JS</td>
+                    <td>Medium</td>
+                    <td>{{s}}</td>
+                    </tr>
+                  {% endfor %}
                 </tbody>
               </table>
             </div>
