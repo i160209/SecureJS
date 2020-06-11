@@ -12,15 +12,16 @@ Instructions to Run the project:
 1. Clone the repo
 2. Download Model from https://drive.google.com/file/d/1BZeezHmo_FTXEo5ymwCESbvWyfc4aXHD/view?usp=sharing
 3. Put the Model in the root directory of Project
-4. Open cmd and navigate to root Directory of Project.
-5. Run the following commands.
-	-> pipenv shell
-	-> pip install -r requirements.txt
-	-> python manage.py runserver
-6. Go to browser and access the server from localhost:8000 or the respective port.
+4. Import "SecureJS_DB.sql" to postgres database
+5. Open cmd and navigate to root Directory of Project
+6. Run the following commands.
+      -> pipenv shell
+      -> pip install -r requirements.txt
+      -> python manage.py runserver
+7. Go to browser and access the server from localhost:8000 or the respective port
 
 Instructions to run the Front end:
 1. Go to root directory of project and open the folder "SecureJS FIles"
 2. Open a cmd in the current directory
 3. Run command "python app.py"
-4. Go to browser and access the server from localhost:5000 or the respective port.
+4. Go to browser and access the server from localhost:5000 or the respective port
